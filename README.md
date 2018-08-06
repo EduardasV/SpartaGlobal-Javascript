@@ -1,7 +1,7 @@
 # SpartaGlobal-Javascript
 ---
-## day one:
-### objectives:  
+## Day one:
+### Objectives:  
 
 * introduction to JS and how to use it in html  
   * data types:
@@ -15,4 +15,8 @@
 * debugging code
   * fix code errors for it to compile correctly
 * datatypes lab
-  * Create javascript commands fixing jasmine errors
+  * Create javascript commands fixing errors created in Jasmine
+
+
+## Homework:
+### Calculator:
