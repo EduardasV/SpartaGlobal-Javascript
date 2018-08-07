@@ -30,11 +30,11 @@ while (third_prompt){
   }
 }
 if (operation == "+"){
-  alert(parseInt(first_number) + parseInt(second_number));
+  alert(parseInt(first_number, +, second_number));
 } else if (operation == "-"){
-  alert(parseInt(first_number) - parseInt(second_number));
+  alert(parseInt(first_number, -, second_number));
 } else if (operation == "/"){
-  alert(parseInt(first_number) / parseInt(second_number));
+  alert(parseInt(first_number, /, second_number));
 } else{
-  alert(parseInt(first_number) * parseInt(second_number));
+  alert(parseInt(first_number, *, second_number));
 }
