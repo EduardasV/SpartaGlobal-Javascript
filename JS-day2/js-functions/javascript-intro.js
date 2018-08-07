@@ -12,6 +12,15 @@ var num1 = 5;
 var operator = "+";
 var num2 = 10;
 
-eval(num1 + operator + num2);
+//eval(num1 + operator + num2);
 
 // ------------------ FUNCTIONS INTRO ------------------
+
+/*
+
+- DRY
+  D - don't
+  R - repeat
+  Y - yourself
+
+*/
