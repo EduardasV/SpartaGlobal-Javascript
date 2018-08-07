@@ -28,7 +28,6 @@
   * returning a value with a function
 * functions lab
   * create functions which are tested with Jasmine
-* 
 
 ## Homework:
 ### Calculator - Day one:
