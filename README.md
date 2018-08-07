@@ -20,7 +20,15 @@
 ## Day two:
 ### Objectives:
 
-*
+* functions
+  * different sections of the function
+  * declaring functions
+  * what is hoisting
+  * what are parameters for functions
+  * returning a value with a function
+* functions lab
+  * create functions which are tested with Jasmine
+* 
 
 ## Homework:
 ### Calculator - Day one:

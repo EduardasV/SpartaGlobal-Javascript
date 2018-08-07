@@ -12,7 +12,7 @@ var num1 = 5;
 var operator = "+";
 var num2 = 10;
 
-//console.log(eval(num1 + operator + num2));
+console.log(eval(num1 + operator + num2));
 
 // ------------------ FUNCTIONS INTRO ------------------
 

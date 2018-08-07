@@ -87,14 +87,14 @@ function convertArrayToAnObject(array){
 // 12. Write a function called 'fizzBuzz' that takes any number and returns a value based on these rules
 function fizzBuzz(number){
   var result = number;
-  console.log(result);
-  if((number%3) == 0)
-    result = "Buzz";
-  else if((number%5) == 0)
-    result = "Fizz"
-  else if((number%5) == 0 && (number%3) == 0)
+  if((number%5) == 0 && (number%3) == 0)
     result = "FizzBuzz"
-  return result
+  else if((number%3) == 0)
+    result = "Fizz";
+  else if((number%5) == 0)
+    result = "Buzz";
+
+  return result;
 }
 // But for multiples of three print "Fizz" instead of the number
 // For the multiples of five print "Buzz".

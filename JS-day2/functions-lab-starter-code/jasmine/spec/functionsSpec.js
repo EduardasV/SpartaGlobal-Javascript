@@ -67,13 +67,16 @@ describe("Title of testing arguments",function() {
             ting: "tang",
             tung: "tong"
         };
-        expect(convertArrayToAnObject(["ting","tang","tung","tong"])).toEqual(obj);    
+        expect(convertArrayToAnObject(["ting","tang","tung","tong"])).toEqual(obj);
 
     });
 
     it("Testing the basicVariableConvertion() function", function(){
 
-        expect(fizzBuzz(20)).toEqual("Fizz");
+        expect(fizzBuzz(5)).toEqual("Buzz");
+        expect(fizzBuzz(15)).toEqual("FizzBuzz");
+        expect(fizzBuzz(2)).toEqual(2);
+        expect(fizzBuzz(3)).toEqual("Fizz");
 
     });
 
