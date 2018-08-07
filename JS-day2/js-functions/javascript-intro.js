@@ -100,3 +100,122 @@ var answer1 = addNumberWithReturn(1,3);
 var answer = addNumberWithReturn(addNumberWithReturn(5,7),addNumberWithReturn(addNumberWithReturn(2,10),2));
 // answer should be 26
 console.log(answer);
+
+// conrtol flow by Anthony
+console.log("------ control flow ------");
+
+/*
+for an if statement the statement inside the parentheses has to have a true or false argument
+
+we will make the sentence : "if the money in pocket less than £10 go home otherwise we get a drink" into code
+with the code bellow 20 is > 10 so it will run the code inside the if statement
+if money_in_my_pocket is between 10 and 5 it will run the code inside else if money_in_my_pocket > 5 section
+if money_in_my_pocket is < 10 it will execute the code inside else
+*/
+var money_in_my_pocket = parseFloat(prompt("How much money do you have?"));
+if(money_in_my_pocket > 10){
+  console.log("Another drink please!");
+}else if(money_in_my_pocket > 5){
+  console.log("Just crisps then");
+}else{
+  console.log("I'm off Home");
+}
+
+// comparison operators
+
+/*
+10 > 5               will be true
+false == !true       will be true
+1 < 3                will be true
+1 != 1               will be false
+10 <= 10             will be true
+10 >= 10             will be true
+"a" < "b"            will be true -- reason is that A and B have a position in the alphabet it will check their position and show true and a is lower than b
+"z" > "c"            will be true
+true && true         will be true
+true && false        will be false
+5>10 && 3<5          will be false
+true || true         will be true
+true || false        will be true
+false || !true       will be false
+
+implementing it in code:
+when you have more than £10 and drank less than 3 drinks.
+when you have more than £5 or the crisps cost £0, also if you had more than 2 drinks and have more than £5 or crisps cost £0.
+*/
+
+console.log("------ comparison practice ------");
+
+var money_in_my_pocket = parseFloat(prompt("How much money do you have?"));
+var drinks_drink = parseFloat(prompt("How many have you had already?"));
+var price_of_crisp = parseFloat(prompt("HOw much are those crisps"));
+
+if(money_in_my_pocket > 10 && drinks_drink < 3){
+  console.log("Another drink please!");
+}else if(money_in_my_pocket > 5 || price_of_crisp == 0){
+  console.log("Just crisps then");
+}else{
+  console.log("I'm off Home");
+}
+
+/*
+switch statements
+
+if version of switch statements
+*/
+
+console.log("------ switch statements ------");
+
+var name = "tim";
+
+if(name == "bob"){
+  console.log("hi bob");
+}else if (name == "tim"){
+  console.log("hi tim");
+}else if (name == "steve"){
+  console.log("hi steve");
+}
+
+/*
+switch version
+
+switch uses strict comparison ===
+*/
+
+switch (name) {
+  case "bob":
+    console.log("hi bob");
+    break;
+  case "tim":
+    console.log("hi tim");
+    break;
+  case "steve":
+    console.log("hi steve");
+    break;
+  default:
+    console.log("hi default person");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
