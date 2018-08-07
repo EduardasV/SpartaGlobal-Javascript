@@ -17,6 +17,20 @@
 * datatypes lab
   * Create javascript commands fixing errors created in Jasmine
 
+## Day two:
+### Objectives:
+
+*
 
 ## Homework:
-### Calculator:
+### Calculator - Day one:
+
+* create a simple Calculator
+  * should have simple operators:
+    * add
+    * divide
+    * subtract
+    * multiply
+  * BONUS:
+    * while loops
+    * regex filters
