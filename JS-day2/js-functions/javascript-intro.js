@@ -195,27 +195,3 @@ switch (name) {
   default:
     console.log("hi default person");
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//
