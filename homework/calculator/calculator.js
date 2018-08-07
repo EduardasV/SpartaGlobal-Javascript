@@ -1,30 +1,29 @@
-first = true;
-second = true;
-third = true;
-
-while (first){
+first_prompt = true;
+second_prompt = true;
+third_prompt = true;
+while (first_prompt){
   var first_number = prompt("Enter first number: ");
   if (first_number){
     if (first_number.match(/[0-9]/g))
-    first = false;
+    first_prompt = false;
     else
       alert("wrong format.");
   }
 }
-while (second){
+while (second_prompt){
   var operation = prompt("Enter operation for :" + first_number);
   if (operation){
     if (operation.match(/[+-/*]/g))
-    second = false;
+    second_prompt = false;
     else
     alert("wrong format.");
   }
 }
-while (third){
+while (third_prompt){
   var second_number = prompt("Enter second number for: " + first_number + operation);
   if (second_number){
     if (second_number.match(/[0-9]/g))
-    third = false;
+    third_prompt = false;
     else{
       alert("wrong format.");
     }
