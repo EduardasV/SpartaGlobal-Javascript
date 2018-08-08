@@ -41,3 +41,19 @@
   * BONUS:
     * while loops
     * regex filters
+* create an advanced calculator
+  * Basic calculator
+    * Addition
+    * Subtraction
+    * Multiplication
+    * Division
+    * Square root
+    * Power
+  * BMI calculator
+    * Metric and Imperial measurements
+    * calculate BMI based on weight and height
+  * Trip calculator
+    * Distance
+    * Fuel consumption in MPG
+    * Fuel costs
+    * The speed of travel MPH
